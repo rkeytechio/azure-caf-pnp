@@ -3,6 +3,8 @@ const execa = require("execa");
 const fs = require("fs");
 (async () => {
   try {
+    await execa("git", ["config", "--global", "user.email", "ghbot@rkeytech.io"]);
+    await execa("git", ["config", "--global", "user.name", "GitHub Bot"]);
     await execa("git", ["checkout", "--orphan", "gh-pages"]);
     // eslint-disable-next-line no-console
     console.log("Building started...");
