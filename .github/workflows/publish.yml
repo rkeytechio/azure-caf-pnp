@@ -22,6 +22,7 @@ jobs:
       with:
         node-version: 16.x
         cache: 'npm'
+        cache-dependency-path: './src/web/package-lock.json'
 
     - name: run npm commands
       working-directory: ./src/web
