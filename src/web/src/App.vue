@@ -1,10 +1,20 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view />
+  <div>
+    <div class="page">
+      <router-view name="header" />
+      <div class="main">
+        <router-view />
+      </div>
+      <router-view name="footer" />
+    </div>
+  </div>
 </template>
+<script lang="ts">
+import { Vue } from "vue-class-component";
+import "@/assets/scss/master.scss";
+
+export default class AppView extends Vue {}
+</script>
 
 <style lang="scss">
 #app {
@@ -13,18 +23,19 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-}
 
-nav {
-  padding: 30px;
+  width: 100vw;
+  height: 100vh;
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
+  .page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
 
-    &.router-link-exact-active {
-      color: #42b983;
-    }
+  .main {
+    flex-grow: 1;
   }
 }
 </style>

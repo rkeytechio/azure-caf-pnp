@@ -1,0 +1,21 @@
+@import 'variables';
+@import 'typography';
+
+@import 'header';
+@import 'footer';
+
+html,
+body {
+	width: 100vw;
+	height: 100vh;
+	margin: 0px !important;
+}
+
+body {
+	color: $black-color;
+	font-size: $font-size-base;
+	font-family: $sans-serif-family;
+	overflow-x: hidden;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}

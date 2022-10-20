@@ -1,0 +1,18 @@
+footer {
+	background-color: $primary-color;
+	color: $white-color;
+	height: 3vh;
+
+	a {
+		color: $white-color;
+		text-decoration: none;
+	}
+
+	.copyright {
+		margin: 0;
+		position: relative;
+		top: 50%;
+		-ms-transform: translateY(-50%);
+		transform: translateY(-50%);
+	}
+}

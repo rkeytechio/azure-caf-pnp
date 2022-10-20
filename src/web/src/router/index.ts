@@ -1,11 +1,13 @@
 import { createRouter, createWebHashHistory, RouteRecordRaw } from "vue-router";
+import HeaderLayout from "../layouts/HeaderLayout.vue";
+import FooterLayout from "../layouts/FooterLayout.vue";
 import HomeView from "../views/HomeView.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {
     path: "/",
     name: "home",
-    component: HomeView,
+    components: { default: HomeView, header: HeaderLayout, footer: FooterLayout },
   },
   {
     path: "/about",
