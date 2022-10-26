@@ -3,7 +3,8 @@
   <header class="site-header">
     <div class="site-header__wrapper">
       <a href="#" class="brand">
-        Azure Cloud Adoption Framework
+        <h1>Azure Cloud Adoption Framework</h1>
+        <h2>Patterns & Practices</h2>
       </a>
       <nav class="nav">
         <button class="nav__toggle" aria-expanded="false" type="button">

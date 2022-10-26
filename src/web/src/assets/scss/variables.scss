@@ -86,30 +86,48 @@ Typography
 
 $sans-serif-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif !default;
 
-$font-size-h1: 3.5em !default; // ~ 49px
-$font-size-h2: 2.5em !default; // ~ 35px
-$font-size-h3: 1.825em !default; // ~ 28px
-$font-size-h4: 1.5em !default; // ~ 24px
-$font-size-h5: 1.3em !default; // ~ 22px
-$font-size-h6: 0.9em !default; // ~ 12px
+/*
+ * Base font family
+*/
 
-$font-paragraph: 1.2em !default;
-$font-size-navbar: 1em !default;
-$font-size-mini: 0.7142em !default;
-$font-size-small: 0.8571em !default;
-$font-size-base: 14px !default;
-$font-size-large: 1em !default;
-$font-size-large-navbar: 20px !default;
-$font-size-blockquote: 1.1em !default; // ~ 15px
+$base-font-family: $sans-serif-family !default;
 
-$font-weight-light: 300 !default;
-$font-weight-normal: 400 !default;
-$font-weight-semi: 600 !default;
-$font-weight-bold: 700 !default;
+/*
+ * Base font sizes
+*/
+
+$base-font-size: 16px !default;
+
+/*
+ * Heading spacing
+*/
+
+$heading-spacing: 25px 0 10px !default;
+
+/*
+ * Paragraph spacing
+*/
+
+$paragraph-spacing: 0 0 25px !default;
+
+/*
+ * Base line height
+*/
+
+$base-line-height: 1.5 !default;
+
+/*
+ * Base colors
+*/
+
+$color-white: $white-color !default;
+$color-black: $black-color !default;
 
 /**********************************************
 Space, Margin, Padding and Alignments
 ***********************************************/
+
+$heading-spacing: 25px 0 10px !default;
 
 $padding-input-vertical: 11px !default;
 $padding-input-horizontal: 19px !default;

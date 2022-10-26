@@ -1,8 +1,11 @@
 @import 'variables';
-@import 'typography';
+@import 'fonts-responsive';
+@import 'fonts-base';
+@import 'fonts-typography';
 
-@import 'header';
-@import 'footer';
+@import 'layout-header';
+@import 'layout-content';
+@import 'layout-footer';
 
 html,
 body {
@@ -12,9 +15,6 @@ body {
 }
 
 body {
-	color: $black-color;
-	font-size: $font-size-base;
-	font-family: $sans-serif-family;
 	overflow-x: hidden;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;

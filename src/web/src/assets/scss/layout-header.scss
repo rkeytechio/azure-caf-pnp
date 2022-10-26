@@ -2,17 +2,12 @@ header {
 	$small: 600px;
 
 	background-color: $primary-color;
-	color: $white-color;
-	height: 10vh;
 
-	a {
+	a, h1, h2 {
 		color: $white-color;
 		text-decoration: none;
-	}
-
-	.brand {
-		font-weight: bold;
-		font-size: 20px;
+		margin: 0px;
+		text-align: start;
 	}
 
 	.site-header {
