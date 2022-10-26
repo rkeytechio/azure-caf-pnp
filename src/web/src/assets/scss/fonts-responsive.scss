@@ -4,45 +4,45 @@
 
 // Sass Maps
 $h1-font-sizes: (
-  null  : 26px,
-  768px : 30px,
-  960px: 40px
+  null  : 20px,
+  768px : 22px,
+  960px: 26px
 );
 
 $h2-font-sizes: (
-  null  : 24px,
-  768px : 28px,
-  960px: 38px
+  null  : 18px,
+  768px : 20px,
+  960px: 24px
 );
 
 $h3-font-sizes: (
-  null  : 22px,
-  768px : 26px,
-  960px: 36px
+  null  : 16px,
+  768px : 18px,
+  960px: 22px
 );
 
 $h4-font-sizes: (
-  null  : 20px,
-  768px : 24px,
-  960px: 34px
+  null  : 14px,
+  768px : 16px,
+  960px: 20px
 );
 
 $h5-font-sizes: (
-  null  : 18px,
-  768px : 22px,
-  960px: 32px
+  null  : 12px,
+  768px : 14px,
+  960px: 18px
 );
 
 $h6-font-sizes: (
-  null  : 16px,
-  768px : 20px,
-  960px: 30px
+  null  : 10px,
+  768px : 12px,
+  960px: 16px
 );
 
 $p-font-sizes: (
-  null  : 15px,
-  768px : 16px,
-  960px: 26px
+  null  : 12px,
+  768px : 14px,
+  960px: 16px
 );
 
 @mixin font-size($fs-map) {
